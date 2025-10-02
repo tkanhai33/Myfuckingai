@@ -88,6 +88,10 @@
 yarn test
 ```
 
+> **Note:** Running the Jest suite requires installing npm dependencies first (`yarn install`).
+> In restricted environments without registry access, the install step may fail, so tests
+> cannot be executed until connectivity is restored.
+
 ## Security & Privacy
 
 - All data stays on-device; email parsing, ML inference, and storage do not rely on external services.
